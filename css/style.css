@@ -1,0 +1,168 @@
+body{
+    background-color: #396C80;
+    width: 1440px;
+    margin: 0 auto;
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+.container__appli{
+   background-color: white;
+    margin: 0 auto;
+    width: 100%;
+}
+
+h1, h2{
+    background-color: #26ADA6;
+    padding-bottom: 1.6rem;
+    padding-left: 1.8rem;
+    padding-top: 1.6rem;
+    font-size: 4em;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    text-shadow: 1px 1px 0 #E6855B;
+    margin: 0;
+}
+
+h2{
+    font-size: 2.6em;
+    text-align: center;
+    margin: 0;
+    background-color: #396C80;
+    color: #E4E6A7;
+ 
+}
+
+h1 span{
+    font-size: 1.3em;
+    color: white;
+
+}
+
+table{
+    width: 900px;
+    margin: 0rem auto;
+    
+}
+
+tbody td{
+    text-align: center;
+    padding: 0.6rem;
+    
+}
+
+thead th{
+    text-align: center;
+    background-color:white;
+    padding: 0.9rem;
+}
+
+tr:nth-child(odd) {background: rgba(204, 204, 204, 0.897);}
+
+tr:nth-child(even) {background: rgba(247, 247, 247, 0.925);}
+
+
+.container__partant{
+    background-color:#A4835A ;
+    border-bottom: 2px solid #E6855B;
+
+}
+
+
+.partant{
+    color: #000400;
+    display: inline-block;
+    padding-left: 2rem;
+    font-weight: bold;
+    
+    
+}
+
+#Categorie{
+    width: 300px;
+    font-size: 1.3em;
+}
+
+.partant button{
+    border-radius: 5px;
+    border: 0px;
+    width: 80px;
+    height: 32px;
+    border:1px solid #27AEA8;
+}
+
+.partant button:hover{
+    background-color: #26ADA6;
+}
+
+.partant input{
+    background-color: #E4E6A7;
+    border: 0px;
+    width: 80px;
+    text-align: center;
+    border-radius: 5px;
+    color:#27AEA8;
+    font-weight: bolder;
+    height:32px ;
+    margin: 0.6rem;
+  
+    
+}
+
+.formulaire{
+   
+    padding: 1rem 1rem;
+    margin: 0 auto;
+    width: 100%;
+    
+}
+
+.formulaire input{
+    margin-left: 0;
+    text-align: left;
+    border: 1px solid #27AEA8;
+    border-radius: 0 4px 4px 0;
+}
+
+.formulaire label{
+    font-weight: bold;
+    padding:0.2rem 0.6rem;
+   font-size: 1em;
+    border-radius: 5px 0 0 5px;
+    width: auto;
+    text-align: center;
+    color: rgb(2, 5, 32);
+    text-transform: uppercase;
+    
+}
+
+
+.formulaire:nth-child(odd) {background: rgb(204, 204, 204);}
+
+.container__tableau{
+    padding: 3rem auto;
+}
+
+.bouton__valider{
+    text-align: center;
+    margin: 2rem;
+    background-color:#000400;
+    padding: 1.2rem;
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+    border-top: 2px solid #27AEA8 ;
+    color: #E6855B;
+   
+}
+
+.bouton__valider input{
+    width: 110px;
+    border-radius: 5px;
+    
+}
+
+.bouton__valider label{
+    margin-right: 30px;
+  
+}

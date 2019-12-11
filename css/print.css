@@ -1,0 +1,33 @@
+
+@media print{
+    
+    body{
+        width: 900px;
+        margin: 0 auto;
+        font-family: 'Varela Round', sans-serif;
+    }
+
+h2, h1 {
+    color: #282828;
+}
+h1 span{
+    
+    color: white;}
+
+body, h1 {
+    background-color: white;
+}    
+
+.partant{
+    display: none;
+    
+}
+
+.container__partant{ 
+    border-bottom: 1px solid black ;
+}
+
+table{
+    border: 1px solid black;
+}
+}
